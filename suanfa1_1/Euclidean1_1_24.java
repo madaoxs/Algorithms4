@@ -4,7 +4,6 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class Euclidean1_1_24 {
     public static int gcd(int a,int b){
-
         if(a>=b);
         else {
             a+=b;
@@ -18,6 +17,6 @@ public class Euclidean1_1_24 {
     }
 
     public static void main(String[] args) {
-        StdOut.print(gcd(1111111,1234567));
+        StdOut.print(gcd(14,13));
     }
 }
